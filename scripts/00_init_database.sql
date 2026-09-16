@@ -82,7 +82,7 @@ TRUNCATE TABLE gold.dim_customers;
 GO
 
 BULK INSERT gold.dim_customers
-FROM 'C:\Users\Haseeb\Desktop\Hasan\Documents\Data Analytics\Data Analytics - Project\datasets\dim_customers.csv'
+FROM 'C:\sql\sql-data-analytics-project\datasets\dim_customers.csv'
 WITH (
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
@@ -94,7 +94,7 @@ TRUNCATE TABLE gold.dim_products;
 GO
 
 BULK INSERT gold.dim_products
-FROM 'C:\Users\Haseeb\Desktop\Hasan\Documents\Data Analytics\Data Analytics - Project\datasets\dim_products.csv'
+FROM 'C:\sql\sql-data-analytics-project\datasets\dim_products.csv'
 WITH (
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
@@ -106,7 +106,7 @@ TRUNCATE TABLE gold.fact_sales;
 GO
 
 BULK INSERT gold.fact_sales
-FROM 'C:\Users\Haseeb\Desktop\Hasan\Documents\Data Analytics\Data Analytics - Project\datasets\fact_sales.csv'
+FROM 'C:\sql\sql-data-analytics-project\datasets\fact_sales.csv'
 WITH (
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
